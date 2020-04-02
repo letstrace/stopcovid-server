@@ -2,7 +2,7 @@
 
 ## Development environment
 
-Install Docker, then run:
+[Install Docker](https://www.docker.com/get-started), then run:
 
     $ docker-compose up --build
 
