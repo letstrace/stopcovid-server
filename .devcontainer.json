@@ -12,5 +12,7 @@
     "esbenp.prettier-vscode",
     "batisteo.vscode-django",
     "dbaeumer.vscode-eslint"
-  ]
+  ],
+  "python.formatting.provider": "black",
+  "editor.formatOnSave": true
 }
