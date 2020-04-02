@@ -18,7 +18,7 @@
 
     <title>{% block whole_title %}{% block title %}{% endblock %} – App Name{% endblock %}</title>
 
-    <link rel="stylesheet" href="{% static 'dist/index.css' %}">
+    <link rel="stylesheet" href="{% static 'index.css' %}">
 
     {% block extra_head %}{% endblock %}
   </head>
@@ -26,7 +26,6 @@
 
     {% block content %}(no content){% endblock %}
 
-    <script src="{% static 'dist/index.js' %}"></script>
     {% block extra_js %}{% endblock %}
   </body>
 </html>
