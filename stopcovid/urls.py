@@ -18,7 +18,11 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path
 
+from .tracks.views import track_list
 
-urlpatterns = [path("admin/", admin.site.urls)]
+urlpatterns = [
+    path("api/v1/track", track_list),
+    path("admin/", admin.site.urls),
+]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
